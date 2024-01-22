@@ -5,7 +5,7 @@ import VendingMachine from "./VendingMachine";
 import Chardonnay from "./Chardonnay";
 import MushroomRisotto from "./MushroomRisotto";
 import ChowderBowl from "./ChowderBowl";
-import { Navigate, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 /** App for Vending Machine application.
