@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <h1>Welcome to the vending machine!</h1>
         <Routes>
           <Route path="/chowder-bowl" element={<ChowderBowl/>} />
           <Route path="/mushroom-risotto" element={<MushroomRisotto/>} />

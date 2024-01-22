@@ -31,6 +31,7 @@ function MushroomRisotto() {
       <p>Want to buy something else?</p>
 
       <button onClick={handleClick}>Return to Vending Machine</button>
+      {/* TODO: can instead use an <a>/Link to look like a button */}
     </div>
   )
 
