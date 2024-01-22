@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
       <ul>
-        <li>
+        <p>
           <Link to={`/chowder-bowl`}>Show me chowder bowl!&nbsp;</Link>
-        </li>
-        <li>
+        </p>
+        <p>
           <Link to={`/mushroom-risotto`}>Show me mushroom risotto!&nbsp;</Link>
-        </li>
-        <li>
+        </p>
+        <p>
           <Link to={`/chardonnay`}>Show me chardonnay!&nbsp;</Link>
-        </li>
+        </p>
       </ul>
   );
 }

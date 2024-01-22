@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import ChowderBowlImg from "./chowder.jpeg";
 
 /**
  *  Props:
@@ -23,6 +24,7 @@ function ChowderBowl() {
   return (
     <div className="ChowderBowl">
       <p>Chowder bowl</p>
+      <img src={ChowderBowlImg} alt="chowder bowl"></img>
 
       <hr></hr>
       <p>Want to buy something else?</p>

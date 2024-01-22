@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import risottoImg from "./risotto.jpeg";
 
 /**
  *  Props:
@@ -23,6 +24,7 @@ function MushroomRisotto() {
   return (
     <div className="MushroomRisotto">
       <p>Mushroom Risotto</p>
+      <img src={risottoImg} alt="mushroom risotto"></img>
 
       <hr></hr>
       <p>Want to buy something else?</p>
