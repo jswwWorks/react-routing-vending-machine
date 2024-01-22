@@ -1,8 +1,4 @@
-import Chardonnay from "./Chardonnay";
-import MushroomRisotto from "./MushroomRisotto";
-import ChowderBowl from "./ChowderBowl";
 import Nav from "./Nav";
-import { Navigate, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 
 /**
@@ -16,26 +12,30 @@ import { Navigate, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
  */
 function VendingMachine() {
 
-  // const navigate = useNavigate();
-
   return (
     <div>
-      {/* <div>
-        <p><Link to="/chowder-bowl">Would you like a chowder bowl?</Link></p>
-      </div> */}
-      <BrowserRouter>
-        <Nav />
-        <Routes>
-          <Route path="/chowder-bowl" element={<ChowderBowl/>} />
-          <Route path="/mushroom-risotto" element={<MushroomRisotto/>} />
-          <Route path="/chardonnay" element={<Chardonnay/>} />
-          <Route path="/" element={<Navigate to="/" />} />
-        </Routes>
-      </BrowserRouter>
+      <h2>Vending Machine! Grab a bite to eat</h2>
+      <Nav />
     </div>
   );
 
 }
 {/* <p><Link to="/chowder-bowl">Would you like a chowder bowl?</Link></p> */}
+{/* <Route path="/vending-machine" element={<VendingMachine/>}/> */}
+{/* <Route path="/" element={<Navigate to="" />} /> */}
+
+
+
+// <BrowserRouter>
+// <Nav />
+// <Routes>
+//   <Route path="/chowder-bowl" element={<ChowderBowl/>} />
+//   <Route path="/mushroom-risotto" element={<MushroomRisotto/>} />
+//   <Route path="/chardonnay" element={<Chardonnay/>} />
+//   <Route path="/vending-machine" element={<VendingMachine/>}/>
+//   <Route path="/" element={<Navigate to="" />} />
+// </Routes>
+// </BrowserRouter>
+
 
 export default VendingMachine;
