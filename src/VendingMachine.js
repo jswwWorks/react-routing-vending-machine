@@ -1,7 +1,8 @@
 import Chardonnay from "./Chardonnay";
 import MushroomRisotto from "./MushroomRisotto";
 import ChowderBowl from "./ChowderBowl";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Nav from "./Nav";
+import { Navigate, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 
 /**
@@ -15,18 +16,20 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
  */
 function VendingMachine() {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div>
-      <div>
+      {/* <div>
         <p><Link to="/chowder-bowl">Would you like a chowder bowl?</Link></p>
-      </div>
+      </div> */}
       <BrowserRouter>
+        <Nav />
         <Routes>
           <Route path="/chowder-bowl" element={<ChowderBowl/>} />
           <Route path="/mushroom-risotto" element={<MushroomRisotto/>} />
           <Route path="/chardonnay" element={<Chardonnay/>} />
+          <Route path="/" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     </div>

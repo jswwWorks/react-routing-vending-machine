@@ -9,6 +9,13 @@
  *
  */
 function Chardonnay() {
+  console.log('Chardonnay rendered');
+
+  return (
+    <div className="Chardonnay">
+      <p>Chardonnay</p>
+    </div>
+  )
 
 }
 

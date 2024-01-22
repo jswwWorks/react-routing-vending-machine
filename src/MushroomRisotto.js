@@ -9,6 +9,12 @@
  *
  */
 function MushroomRisotto() {
+  console.log('MushroomRisotto rendered');
+  return (
+    <div className="MushroomRisotto">
+      <p>Mushroom Risotto</p>
+    </div>
+  )
 
 }
 
