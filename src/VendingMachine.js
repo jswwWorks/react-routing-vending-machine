@@ -4,12 +4,12 @@ import Nav from "./Nav";
 /**
  *  Props: none
  *
- *  States:
+ *  States: none
  *
  *  Renders:
- *    App -> VendingMachine -> Chardonnay, ChowderBowl, or MushroomRisotto
- *
+ *    App -> VendingMachine -> Nav
  */
+
 function VendingMachine() {
 
   return (
@@ -20,22 +20,6 @@ function VendingMachine() {
   );
 
 }
-{/* <p><Link to="/chowder-bowl">Would you like a chowder bowl?</Link></p> */}
-{/* <Route path="/vending-machine" element={<VendingMachine/>}/> */}
-{/* <Route path="/" element={<Navigate to="" />} /> */}
-
-
-
-// <BrowserRouter>
-// <Nav />
-// <Routes>
-//   <Route path="/chowder-bowl" element={<ChowderBowl/>} />
-//   <Route path="/mushroom-risotto" element={<MushroomRisotto/>} />
-//   <Route path="/chardonnay" element={<Chardonnay/>} />
-//   <Route path="/vending-machine" element={<VendingMachine/>}/>
-//   <Route path="/" element={<Navigate to="" />} />
-// </Routes>
-// </BrowserRouter>
 
 
 export default VendingMachine;

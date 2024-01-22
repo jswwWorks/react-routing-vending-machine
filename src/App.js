@@ -7,6 +7,17 @@ import MushroomRisotto from "./MushroomRisotto";
 import ChowderBowl from "./ChowderBowl";
 import { Navigate, BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
+
+/** App for Vending Machine application.
+ *
+ *  Props: none
+ *
+ *  States: none
+ *
+ *  Renders:
+ *    App -> VendingMachine
+ */
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +34,3 @@ function App() {
 }
 
 export default App;
-
-
-      // <VendingMachine />
-{/* <Route path="/" element={<Navigate to="" />} /> */}

@@ -2,15 +2,16 @@ import { useNavigate } from "react-router-dom";
 import chardonnayImg from "./chardonnay.jpeg";
 
 /**
- *  Props:
+ *  Props: none
  *
- *  States:
- *
+ *  States: none
  *
  *  Renders:
- *    VendingMachine -> Chardonnay
+ *    Nav -> Chardonnay
  *
+ *  Shows picture of Chardonnay and has option to return to homepage.
  */
+
 function Chardonnay() {
   console.log('Chardonnay rendered');
 
@@ -31,8 +32,7 @@ function Chardonnay() {
 
       <button onClick={handleClick}>Return to Vending Machine</button>
     </div>
-  )
-
+  );
 }
 
 export default Chardonnay;

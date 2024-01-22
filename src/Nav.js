@@ -1,8 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// const defaultFoods = ["burrito", "salad", "pizza", "pasta"]
 
+/** Nav
+ *
+ *  Props: none
+ *
+ *  States: none
+ *
+ *  Renders:
+ *    VendingMachine -> Nav -> Link
+ */
 function Nav() {
   return (
       <ul>

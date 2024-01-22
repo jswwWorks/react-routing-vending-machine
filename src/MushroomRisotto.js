@@ -2,15 +2,16 @@ import { useNavigate } from "react-router-dom";
 import risottoImg from "./risotto.jpeg";
 
 /**
- *  Props:
+ *  Props: none
  *
- *  States:
- *
+ *  States: none
  *
  *  Renders:
- *    VendingMachine -> MushroomRisotto
+ *    Nav -> MushroomRisotto
  *
+ *  Shows picture of risotto and has option to return to homepage.
  */
+
 function MushroomRisotto() {
   console.log('MushroomRisotto rendered');
 

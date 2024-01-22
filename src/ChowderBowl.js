@@ -2,15 +2,17 @@ import { useNavigate } from "react-router-dom";
 import ChowderBowlImg from "./chowder.jpeg";
 
 /**
- *  Props:
+ *  Props: none
  *
- *  States:
+ *  States: none
  *
  *
  *  Renders:
- *    VendingMachine -> ChowderBowl
+ *    Nav -> ChowderBowl
  *
+ *  Shows picture of chowder and has option to return to homepage.
  */
+
 function ChowderBowl() {
   console.log('ChowderBowl rendered');
 
@@ -36,4 +38,3 @@ function ChowderBowl() {
 }
 
 export default ChowderBowl;
-{/* <p><Link to={`/vending-machine`}>Return to Vending Machine</Link></p> */}
